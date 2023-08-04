@@ -44,3 +44,33 @@
 10:53:29.139 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********OfoxW.OfoxW
 10:53:29.176 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******OfoxW1234
 10:53:29.618 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Registration successful***********
+11:35:29.423 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - ===========================================================================================
+11:35:29.425 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - *********Starting TC_001_AccountRegistrationTest **********
+11:35:29.425 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - ** test is running in **chrome=========115.0.5790.170
+11:35:29.822 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - ******clicked on the register link*******
+11:35:29.877 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the first nameMXwUU
+11:35:29.917 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the last name  ******MXwUUlast
+11:35:30.144 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - ************Entered address,city,state,zip,phone and SSN*************
+11:35:30.188 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********MXwUU.MXwUU
+11:35:30.225 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******MXwUU1234
+11:35:30.623 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - *******Registration successful***********
+11:35:31.357 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - ===========================================================================================
+11:35:31.357 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - *********Starting TC_001_AccountRegistrationTest **********
+11:35:31.357 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - ** test is running in **msedge=========115.0.1901.188
+11:35:31.738 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - ******clicked on the register link*******
+11:35:31.791 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the first nameRdTZW
+11:35:31.827 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the last name  ******RdTZWlast
+11:35:32.055 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - ************Entered address,city,state,zip,phone and SSN*************
+11:35:32.092 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********RdTZW.RdTZW
+11:35:32.128 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******RdTZW1234
+11:35:32.527 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - *******Registration successful***********
+12:17:22.771 [main] INFO  testCases.TC_001_AccountRegistrationTest - ===========================================================================================
+12:17:22.773 [main] INFO  testCases.TC_001_AccountRegistrationTest - *********Starting TC_001_AccountRegistrationTest **********
+12:17:22.774 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** test is running in **msedge=========115.0.1901.188
+12:17:25.046 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******clicked on the register link*******
+12:17:25.098 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the first nameoSyZa
+12:17:25.134 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the last name  ******oSyZalast
+12:17:25.348 [main] INFO  testCases.TC_001_AccountRegistrationTest - ************Entered address,city,state,zip,phone and SSN*************
+12:17:25.384 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********oSyZa.oSyZa
+12:17:25.423 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******oSyZa1234
+12:17:26.850 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Registration successful***********

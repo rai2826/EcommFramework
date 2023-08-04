@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import java.time.Duration;
+import java.util.ResourceBundle;
 
 public class BaseClass {
 
@@ -23,9 +24,13 @@ public class BaseClass {
     public String browsername;
     public String browserversion;
 
+    public ResourceBundle rb; // for reading from the config.properties file
+
     @BeforeClass
-    @Parameters({"url", "browser"})
-    public void setup(String ur, String br) {
+    @Parameters({ "browser"})
+    public void setup( String br) {
+
+        rb=ResourceBundle.getBundle("config"); // Load config.properties file
 
         logger = LogManager.getLogger(this.getClass()); //logging , pass the class being executed
         WebDriverManager.chromedriver().setup();
@@ -36,11 +41,12 @@ public class BaseClass {
             driver = new EdgeDriver();
         }
 
+        //Getting the browser info where test is being run and then using it to print in logs for refrence
         Capabilities cap = ((RemoteWebDriver) driver).getCapabilities();
         browsername = cap.getBrowserName();
         browserversion = cap.getBrowserVersion();
 
-        driver.get(ur);
+        driver.get(rb.getString("appURL")); // get the value of appURL from the config.properties file
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();
     }
