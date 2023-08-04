@@ -18,13 +18,13 @@ import java.util.ResourceBundle;
 
 public class BaseClass {
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public Logger logger; // for logging
 
     public String browsername;
     public String browserversion;
 
-    public ResourceBundle rb; // for reading from the config.properties file
+    public static ResourceBundle rb; // for reading from the config.properties file
 
     @BeforeClass
     @Parameters({ "browser"})
@@ -33,6 +33,7 @@ public class BaseClass {
         rb=ResourceBundle.getBundle("config"); // Load config.properties file
 
         logger = LogManager.getLogger(this.getClass()); //logging , pass the class being executed
+
         WebDriverManager.chromedriver().setup();
 
         if (br.equalsIgnoreCase("chrome")) {
@@ -41,7 +42,7 @@ public class BaseClass {
             driver = new EdgeDriver();
         }
 
-        //Getting the browser info where test is being run and then using it to print in logs for refrence
+        //Getting the browser info where test is being run and then using it to print in logs for reference
         Capabilities cap = ((RemoteWebDriver) driver).getCapabilities();
         browsername = cap.getBrowserName();
         browserversion = cap.getBrowserVersion();
