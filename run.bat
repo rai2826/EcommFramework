@@ -1,0 +1,2 @@
+cd IdeaProjects\Opencart_3rdAug
+mvn test

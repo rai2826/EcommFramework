@@ -205,3 +205,39 @@
 15:14:31.835 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******iUHWR1234
 15:14:32.399 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Registration successful***********
 15:14:41.529 [main] INFO  testCases.TC_002_LoginTest - *******Login successful***********
+14:12:20.306 [main] INFO  testCases.TC_001_AccountRegistrationTest - ===========================================================================================
+14:12:20.308 [main] INFO  testCases.TC_001_AccountRegistrationTest - *********Starting TC_001_AccountRegistrationTest **********
+14:12:20.309 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** test is running in **msedge=========115.0.1901.188
+14:12:22.582 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******clicked on the register link*******
+14:12:22.642 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the first nameeoPCa
+14:12:22.678 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the last name  ******eoPCalast
+14:12:22.896 [main] INFO  testCases.TC_001_AccountRegistrationTest - ************Entered address,city,state,zip,phone and SSN*************
+14:12:22.935 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********eoPCa.eoPCa
+14:12:22.973 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******eoPCa1234
+14:14:41.831 [main] INFO  testCases.TC_001_AccountRegistrationTest - ===========================================================================================
+14:14:41.833 [main] INFO  testCases.TC_001_AccountRegistrationTest - *********Starting TC_001_AccountRegistrationTest **********
+14:14:41.833 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** test is running in **msedge=========115.0.1901.188
+14:14:42.232 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******clicked on the register link*******
+14:14:42.284 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the first namevIaKO
+14:14:42.323 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the last name  ******vIaKOlast
+14:14:42.533 [main] INFO  testCases.TC_001_AccountRegistrationTest - ************Entered address,city,state,zip,phone and SSN*************
+14:14:42.570 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********vIaKO.vIaKO
+14:14:42.608 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******vIaKO1234
+14:26:44.084 [main] INFO  testCases.TC_001_AccountRegistrationTest - ===========================================================================================
+14:26:44.087 [main] INFO  testCases.TC_001_AccountRegistrationTest - *********Starting TC_001_AccountRegistrationTest **********
+14:26:44.087 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** test is running in **msedge=========115.0.1901.188
+14:26:44.470 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******clicked on the register link*******
+14:26:44.526 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the first namespnVR
+14:26:44.561 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the last name  ******spnVRlast
+14:26:44.779 [main] INFO  testCases.TC_001_AccountRegistrationTest - ************Entered address,city,state,zip,phone and SSN*************
+14:26:44.817 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********spnVR.spnVR
+14:26:44.855 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******spnVR1234
+14:34:03.536 [main] INFO  testCases.TC_001_AccountRegistrationTest - ===========================================================================================
+14:34:03.538 [main] INFO  testCases.TC_001_AccountRegistrationTest - *********Starting TC_001_AccountRegistrationTest **********
+14:34:03.539 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** test is running in **msedge=========115.0.1901.188
+14:34:03.941 [main] INFO  testCases.TC_001_AccountRegistrationTest - ******clicked on the register link*******
+14:34:03.995 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the first namelLChS
+14:34:04.034 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Entered the last name  ******lLChSlast
+14:34:04.250 [main] INFO  testCases.TC_001_AccountRegistrationTest - ************Entered address,city,state,zip,phone and SSN*************
+14:34:04.292 [main] INFO  testCases.TC_001_AccountRegistrationTest - *******Enter the username*********lLChS.lLChS
+14:34:04.330 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Enter the password******lLChS1234
